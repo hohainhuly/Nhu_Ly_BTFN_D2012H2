@@ -1,0 +1,172 @@
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-top: 2px;
+}
+.menu li {
+    margin-left: 32px;
+}
+.menu li a {
+    color: #0d0b17;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.menu li a:hover {
+    opacity: .8;
+}
+.app-download a {
+    margin-left: 0;
+}
+.app-download {
+    display: flex;
+    list-style: none;
+}
+.app-download li {
+    margin-left: 12px;
+}
+.banner {
+    height: 110vh;
+    background: url(./imgfn/bbground.png);
+    background-size: cover;
+}
+.phone {
+    float: right;
+    margin: 32px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+.textstyle {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    padding-top: 200px;
+}
+.text3 {
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.bodytext {
+    width: 540px;
+    height: 64px;
+    left: 0px;
+    top: 72px;
+}
+/* .tbd {
+    padding: 100px;
+    padding-top: 1px;
+    text-align: center;
+    justify-content: center;
+}
+.column {
+    flex-direction: column;
+    justify-content: center
+} */
+
+.grid-container{
+    display: grid;
+    text-align: center;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+.grid-item-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-item-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid-item-3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.grid-item-4 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.grid-item-5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid-item-6 {
+    grid-column: 3;
+    grid-row: 2;
+}
+/* .hinh {
+    float: left;
+    background-image: url(./img/phaydoi.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+} */
+.pd {
+    padding-left: 50px;
+}
+.texthead {
+    color: rgb(167, 1, 1);
+}
+.iconn {
+    float: right;
+    margin-top: -450px;
+    margin-right: -80px;
+}
+.textfooter {
+    text-align: center;
+    align-items: center;
+}
+.banner-1{
+    height: 200vh;
+    background: url(./imgfn/bbground.png);
+    background-size: cover;
+}
+.center {
+    align-content: center;
+    align-items: center;
+}
+.floatright {
+    float: right;
+    margin-top: -35px;
+    margin-right: -60px;
+}
+.center-1 {
+    align-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+/* .banner-2 {
+    height: 120vh;
+    background: url(./imgfn/bbground.png);
+    background-size: cover;
+} */
+.floatright-2 {
+    float: right;
+    margin-top: -350px;
+    margin-right: -450px;
+}
+.floatright-3 {
+    float: right;
+    margin-top: -450px;
+    margin-right: -300px;
+}
+.column {
+    flex-direction: column;
+}
+.textstyle-2 {
+    display: flex;
+    margin-left: 130px;
+    padding-top: 200px;
+}
+.floatright-4 {
+    margin-top: -70px;
+    margin-left: 50px;
+}
